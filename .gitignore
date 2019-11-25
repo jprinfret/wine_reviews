@@ -121,5 +121,5 @@ Thumbs.db
 # config file
 config.py
 
-#csv file
-winemag-data-130k-v2.csv
+#ignore folder
+/__ignore__/
