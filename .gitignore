@@ -122,4 +122,4 @@ Thumbs.db
 config.py
 
 #ignore folder
-/__ignore__/
+*/__ignore__/*
