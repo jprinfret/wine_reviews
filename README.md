@@ -15,18 +15,24 @@ Please find the raw dataset here: https://www.kaggle.com/zynicide/wine-reviews
 ## Transformtions and Feature Engineering:
 We observed that our data was not noramlly distributed or effeciently homoscedastic after completing the cleaning process and creating dummy variables for our categorical data. And this resulted in the r<sup>2</sup> value being higher than it should have been.
 
-
-
 QQ Plot             |  Homoscedasticity    | OLS Regression Results
 :-------------------------:|:-------------------------:|:-------------------------:
 ![alt test](graphs/pre_log_normality.png)  |  ![alt_text](graphs/pre_log_homoscedasticity.png)   | ![alt test](graphs/pre_log_ols.png)
 
+Specifically our price data was not normally distrubted and needed to be transformed into a normal distribution by taking the log() of the column. 
  
+ Before Log Transformation             |  After Log Transformation
+ :-------------------------:|:-------------------------:
+![alt test](graphs/pre_log_price.png)  |  ![alt_text](graphs/post_log_price.png)
 
-Upon realizing ourobserving this  After cleaning our data and checking for homoscedacity, normality, multicolinearity 
+Transforming price resulted in our data bcoming more normally distributed, having greater homoscedacity, and have a lower r<sup>2</sup> value. 
+
+QQ Plot             |  Homoscedasticity    | OLS Regression Results
+:-------------------------:|:-------------------------:|:-------------------------:
+![alt test](graphs/post_log_normality.png)  |  ![alt_text](graphs/post_log_homoscedasticity.png)   | ![alt test](graphs/post_log_ols.png)
 
 ## Testing Models:
-After 
+
 ## Outcomes:
 
 ## Libraries Used:
