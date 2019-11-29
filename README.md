@@ -50,8 +50,6 @@ QQ Plot             |  Homoscedasticity    | OLS Regression Results
 
 ## Example:
 Let's consider a $150 2009 Cabernet Sauvignon from Bordeaux, France bottled in 2009. Our model would predict that Wine Enthusiast rating would be:  
-
-
 ![alt test](graphs/example.png)
 
 
