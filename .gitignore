@@ -121,11 +121,5 @@ Thumbs.db
 # config file
 config.py
 
-#wine dictionary file
-wines.py
-
 #ignore backup folder
 backup/
-
-#ignore graphs folder
-graphs/
