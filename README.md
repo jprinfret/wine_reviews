@@ -35,7 +35,10 @@ QQ Plot             |  Homoscedasticity    | OLS Regression Results
 
 ## Testing Models:
 
-![alt test](ridge lasso regression.png)
+## Write why we used something instead of KFOLD
+
+
+![alt test](graphs/ridge_lasso_regression.png)
 
 ## Example:
 
