@@ -120,6 +120,7 @@ Thumbs.db
 
 # config file
 config.py
+wines.py
 
 #ignore folder
 backup/
