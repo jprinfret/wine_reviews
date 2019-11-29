@@ -35,7 +35,7 @@ QQ Plot             |  Homoscedasticity    | OLS Regression Results
 
 ## Testing Models:
 
-![alt test](ridge_lasso_regression.png)
+![alt test](graphs/ridge_lasso_regression.png)
 
 ## Example:
 
