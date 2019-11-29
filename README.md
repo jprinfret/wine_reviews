@@ -39,7 +39,6 @@ QQ Plot             |  Homoscedasticity    | OLS Regression Results
 
 ## Example:
 
-![alt test](graphs/post_log_normality.png)
 
 ## Libraries Used:
 **Statsmodels** for OLS formula and QQ plot<br /> 
