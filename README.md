@@ -13,9 +13,11 @@ Please find the raw dataset here: https://www.kaggle.com/zynicide/wine-reviews
 
 
 ## Transformtions and Feature Engineering:
-We observed that our data was not noramlly distributed or effeciently homoscedastic after completing the cleaning process and creating dummy variables for our categorical data. 
+We observed that our data was not noramlly distributed or effeciently homoscedastic after completing the cleaning process and creating dummy variables for our categorical data. And this resulted in the r<sup>2</sup> value being higher than it should have been.
 
-QQ Plot             |  homoscedasticity
+
+
+QQ Plot             |  Homoscedasticity
 :-------------------------:|:-------------------------:
 ![alt test](graphs/pre_log_normality.png)  |  ![alt_text](graphs/pre_log_homoscedasticity.png)
 
