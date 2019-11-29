@@ -14,7 +14,7 @@ Please find the raw dataset here: https://www.kaggle.com/zynicide/wine-reviews
 ## Exploratory Data Analysis:
 
 
-## Transformtions and Feature Engineering:
+### Transformtions and Feature Engineering:
 We observed that our data was not noramlly distributed or effeciently homoscedastic after completing the cleaning process and creating dummy variables for our categorical data. And this resulted in the r<sup>2</sup> value being higher than it should have been.
 
 QQ Plot             |  Homoscedasticity    | OLS Regression Results
@@ -33,6 +33,14 @@ QQ Plot             |  Homoscedasticity    | OLS Regression Results
 :-------------------------:|:-------------------------:|:-------------------------:
 ![alt test](graphs/post_log_normality.png)  |  ![alt_text](graphs/post_log_homoscedasticity.png)   | ![alt test](graphs/post_log_ols.png)
 
+### Observing Correlations 
+![alt test](graphs/provinces_heatmap.png)
+![alt test](graphs/grapes_heatmap.png)
+![alt test](graphs/taster_heatmap.png)
+![alt test](graphs/vintages_heatmap.png)
+![alt test](graphs/all_data_heatmap.png)
+
+
 ## Testing Models:
 
 ## Write why we used something instead of KFOLD
@@ -41,6 +49,10 @@ QQ Plot             |  Homoscedasticity    | OLS Regression Results
 ![alt test](graphs/ridge_lasso_regression.png)
 
 ## Example:
+Let's consider a $150 2009 Cabernet Sauvignon from Bordeaux, France bottled in 2009. Our model would predict that Wine Enthusiast rating would be:  
+
+
+![alt test](graphs/example.png)
 
 
 ## Libraries Used:
