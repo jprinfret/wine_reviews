@@ -31,13 +31,13 @@ After
 ## Outcomes:
 
 ## Libraries Used:
-**Statsmodels** for OLS formula and QQ plot
-**Pandas** for dataframes and generating dummy variables
-**Numpy** for logarithmic transformation
-**scipy.stats** for statistical operations
-**sklearn.linear_model** for generating linear, Ridge, and Lasso Models
-**sklearn.model_selection** for creating train test split 
-**sklearn.preprocessing** for scaling using StandardScaler
-**nbimporter** for importing from seperate jupyter notebooks 
-**seaborn** for heatmap visualization
-**Matplotlib** for data visualization 
+**Statsmodels** for OLS formula and QQ plot<br /> 
+**Pandas** for dataframes and generating dummy variables<br /> 
+**Numpy** for logarithmic transformation<br /> 
+**scipy.stats** for statistical operations<br /> 
+**sklearn.linear_model** for generating linear, Ridge, and Lasso Models<br /> 
+**sklearn.model_selection** for creating train test split<br /> 
+**sklearn.preprocessing** for scaling using StandardScaler<br /> 
+**nbimporter** for importing from seperate jupyter notebooks<br /> 
+**seaborn** for heatmap visualization<br /> 
+**Matplotlib** for data visualization<br /> 
