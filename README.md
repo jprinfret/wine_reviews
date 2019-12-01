@@ -31,8 +31,13 @@ QQ Plot             |  Homoscedasticity    | OLS Regression Results
 ![alt test](graphs/post_log_normality.png)  |  ![alt_text](graphs/post_log_homoscedasticity.png)   | ![alt test](graphs/post_log_ols.png)
 
 ### Observing Correlations 
-![alt test](graphs/provinces_heatmap.png)
-![alt test](graphs/grapes_heatmap.png)
+Province             |  Grape   
+:-------------------------:|:-------------------------:
+![alt test](graphs/provinces_heatmap.png) | ![alt test](graphs/grapes_heatmap.png)
+
+
+
+
 ![alt test](graphs/taster_heatmap.png)
 ![alt test](graphs/vintages_heatmap.png)
 ![alt test](graphs/all_data_heatmap.png)
