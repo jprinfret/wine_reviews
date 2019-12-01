@@ -35,13 +35,11 @@ Province             |  Grape
 :-------------------------:|:-------------------------:
 ![alt test](graphs/provinces_heatmap.png) | ![alt test](graphs/grapes_heatmap.png)
 
+Taster             |  Vintage   
+:-------------------------:|:-------------------------:
+![alt test](graphs/taster_heatmap.png) | ![alt test](graphs/vintages_heatmap.png)
 
-
-
-![alt test](graphs/taster_heatmap.png)
-![alt test](graphs/vintages_heatmap.png)
 ![alt test](graphs/all_data_heatmap.png)
-
 
 ## Testing Models:
 
