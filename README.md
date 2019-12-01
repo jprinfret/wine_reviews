@@ -42,9 +42,7 @@ Taster             |  Vintage
 ![alt test](graphs/all_data_heatmap.png)
 
 ## Testing Models:
-
-## Write why we used something instead of KFOLD
-
+After each model, Ridge regression produces the lowest Root Mean Square Error (RMSE). As RMSE is the square root of the variance of the residuals, it is used to show the absolute fit of a model and how close the observed data is to the predicted values. Since the ridge regression model has the lowest RMSE value it indicates thats the best model for our regression as the observed data is closest to the predictions. 
 
 ![alt test](graphs/ridge_lasso_regression.png)
 
