@@ -57,7 +57,7 @@ Let's consider a $150 2009 Cabernet Sauvignon from Bordeaux, France bottled in 2
 **Numpy** for logarithmic transformation<br /> 
 **scipy.stats** for statistical operations<br /> 
 **sklearn.linear_model** for generating linear, Ridge, and Lasso Models<br /> 
-**sklearn.model_selection** for creating train test split<br /> 
+**sklearn.model_selection** for creating train test split and KFold Cross Validation<br /> 
 **sklearn.preprocessing** for scaling using StandardScaler<br /> 
 **nbimporter** for importing from seperate jupyter notebooks<br /> 
 **seaborn** for heatmap visualization<br /> 
