@@ -41,10 +41,17 @@ Taster             |  Vintage
 
 ![alt test](graphs/all_data_heatmap.png)
 
-## Testing Models:
+## Testing and Scaling Model:
+
+Separating our data into the training and testing data we used a train test split of 70% - 30% to allow for an acceptable amount of test data without losing too much of the data used to train our model. We also chose to use the StandardScaler to scale the data as opposed to a MinMax scaler because the MinMax scaler can drop some values on both the extremes of the dataset.
+
+![alt test](graphs/train_test_split.png)
+
 After each model, Ridge regression produces the lowest Root Mean Square Error (RMSE). As RMSE is the square root of the variance of the residuals, it is used to show the absolute fit of a model and how close the observed data is to the predicted values. Since the ridge regression model has the lowest RMSE value it indicates thats the best model for our regression as the observed data is closest to the predictions. 
 
 ![alt test](graphs/ridge_lasso_regression.png)
+
+
 
 ## Example Predication:
 Let's consider a $150 2009 Cabernet Sauvignon from Bordeaux, France bottled in 2009. Our model would predict that Wine Enthusiast rating would be:  
