@@ -47,16 +47,17 @@ Separating our data into the training and testing data we used a train test spli
 
 ![alt test](graphs/train_test_split.png)
 
-After each model, Ridge regression produces the lowest Root Mean Square Error (RMSE). As RMSE is the square root of the variance of the residuals, it is used to show the absolute fit of a model and how close the observed data is to the predicted values. Since the ridge regression model has the lowest RMSE value it indicates thats the best model for our regression as the observed data is closest to the predictions. 
+After each model, Ridge regression produces the lowest Root Mean Square Error (RMSE). As RMSE is the square root of the variance of the residuals, it is used to show the absolute fit of a model and how close the observed data is to the predicted values. Since the Ridge regression model has the lowest RMSE value it indicates thats the best model for our regression as the observed data is closest to the predictions. 
 
 ![alt test](graphs/ridge_lasso_regression.png)
+
+To validate our model we also included a KFold cross validation, which produced a score of about .414.
 
 
 
 ## Example Predication:
 Let's consider a $150 2009 Cabernet Sauvignon from Bordeaux, France bottled in 2009. Our model would predict that Wine Enthusiast rating would be:  
 ![alt test](graphs/example.png)
-
 
 ## Libraries Used:
 **Statsmodels** for OLS formula and QQ plot<br /> 
