@@ -2,7 +2,7 @@
 By JP Rinfret and Garrett Keyes
 
 ## Overview:
-Wine is one of the most widely consumed types of alcohol in the world. And many wine drinkers would even consider it the most prestigous. A major determinant in whether a wine a of high quality or not is what its associated rating is. Wine is rated on an 80-100 scale based on taster reviews by organizations including Wine Spectator, wine.com, vivino, and Wine Enthusiast. But the rating given to each wine may not always be what it should. Using multi-linear regression we seek to predict the rating a wine should receive based on grape , province, vintage year, price, and an aggregation of critic reviews. 
+Wine is one of the most widely consumed types of alcohol in the world. And many wine drinkers would even consider it the most prestigous. A wine's rating is a major determinant of whether or not a specific bottle/vintage is considered high quality. Wine is rated on a scale from 80 to 100 based on taster reviews by organizations including Wine Spectator, wine.com, vivino, and Wine Enthusiast. But the rating given to each wine may not always be what it should. Using multi-linear regression we seek to predict the rating a wine should receive based on grape variety, province, vintage year, price, and an aggregation of critic reviews. 
 
 [Executive Overview](https://docs.google.com/presentation/d/16AflvwtjYgCDZ4M5CGoQz2o1lbqeyB5Cm6XoSGZy34k/edit?usp=sharing)
 
