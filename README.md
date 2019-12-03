@@ -52,6 +52,7 @@ Ridge regression produces the lowest Root Mean Square Error(RMSE) of each model.
 ![alt test](graphs/ridge_lasso_regression.png)
 
 Conducting a KFold test for cross-validation shows, however, the model may not be as reliable as it appears. 
+![alt test](graphs/ridge_fold.png)
 
 ## Example Predication:
 Let's consider a $150 2009 Cabernet Sauvignon from Bordeaux, France bottled in 2009. Our model would predict that Wine Enthusiast rating would be:  
